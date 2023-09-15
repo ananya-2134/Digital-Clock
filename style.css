@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(100deg,#3c00ef,#31edbb); 
+}
+.box{
+    width:80%;
+    height: 18%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+.clock{
+    width: 100%;
+    height: 100%;
+    background:rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 13vh;
+}
+#am{
+    font-size: 60px ;
+}
+.clock span{
+    font-size: 80px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+/* 
+.clock{
+    padding: 70px 0;
+    text-align: center;
+}
+#time{
+    margin:auto;
+    height:20%;
+    width:50% ;
+    background-color: white;
+    font-size:xx-large;
+}
+p{
+    text-align: center;
+    font-size: 10vh;
+}  */
